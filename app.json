@@ -20,7 +20,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.bacon.oct8tabs"
     },
     "web": {
       "bundler": "metro",
@@ -34,6 +35,14 @@
         {
           "ios": {
             "useFrameworks": "static"
+          }
+        }
+      ],
+      [
+        "react-native-edge-to-edge",
+        {
+          "android": {
+            "parentTheme": "Material3"
           }
         }
       ]
